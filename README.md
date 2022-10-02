@@ -7,9 +7,11 @@
 ### 2. What Problems / Warnings are there with code?
 
 - The errors are found at line 52, and line 53 and also at the line 39
-- At line 52 and 53 their was a error of shapeOf and propTypes.array is not a function.
+- At line 52 and 53 their was a error of shapeOf and propTypes.array is not a function. and map cannot read properties from items.
+
 
 ### 3. Please fix, optimize, and/or modify the component as much as you think is necessary?
+ I think this can make the code run successfully
 
 ``` JavaScript
 import React, { useState, useEffect, memo }from "react";
